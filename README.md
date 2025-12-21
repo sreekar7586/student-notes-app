@@ -4,13 +4,13 @@
 ## 📌 Introduction
 This project is developed as part of the **Version Control Systems** course to demonstrate practical usage of **Git Bash and GitHub**.  
 
-The project focuses on implementing real-world Git operations such as branching, merging, conflict resolution, and remote repository management.
+The project demonstrates advanced Git workflows including branching, merging, and conflict resolution techniques.
 
-The application itself is a **Student Notes Sharing Web Application** where users can create, view, search, edit, pin, and delete notes using a Python Flask backend with a simple web interface.  
+The application is a **Student Notes Sharing Web Application** where users can create, view, search, edit, pin, and delete notes using a Python Flask backend with a simple web interface.  
 
 This is an educational project designed to master Git workflows and version control best practices with hands-on implementation.
 
-The primary goal of this project is to showcase **Git workflows** and version control best practices.
+The primary goal of this project is to showcase **professional Git practices** and version control in a real development scenario.
 
 ---
 
