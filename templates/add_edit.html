@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if note %}Edit{% else %}Add{% endif %} Note</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        input[type="text"], textarea {
+            width: 300px;
+            padding: 6px;
+        }
+        textarea { height: 100px; }
+        button { padding: 6px 12px; }
+        a { text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+    <h1>{% if note %}Edit{% else %}Add{% endif %} Note</h1>
+
+    <form method="post">
+        <label>Name:</label><br>
+        <input type="text" name="name" value="{{ note.name if note else '' }}" required><br><br>
+
+        <label>Note:</label><br>
+        <textarea name="note" required>{{ note.note if note else '' }}</textarea><br><br>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <p><a href="{{ url_for('index') }}">⬅ Back to Home</a></p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Notes Sharing App</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { margin-bottom: 10px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f2f2f2; }
+        input[type="text"] { padding: 5px; width: 200px; }
+        a { text-decoration: none; color: blue; }
+        a.button { padding: 6px 10px; border: 1px solid #333; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Student Notes Sharing App</h1>
+
+    <form method="get" action="{{ url_for('index') }}">
+        <input type="text" name="search" placeholder="Search notes..." value="{{ search or '' }}">
+        <button type="submit">Search</button>
+        <a href="{{ url_for('index') }}">Clear</a>
+    </form>
+
+    <p>
+        <a href="{{ url_for('add_note') }}" class="button">➕ Add New Note</a>
+    </p>
+
+    {% if notes %}
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Student Name</th>
+            <th>Note</th>
+            <th>Timestamp</th>
+            <th>Actions</th>
+        </tr>
+        {% for note in notes %}
+        <tr>
+            <td>{{ note.id }}</td>
+            <td>{{ note.name }}</td>
+            <td>{{ note.note }}</td>
+            <td>{{ note.timestamp }}</td>
+            <td>
+                <a href="{{ url_for('edit_note', id=note.id) }}">Edit</a> |
+                <a href="{{ url_for('delete_note', id=note.id) }}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <p>No notes available. Click "Add New Note" to create one.</p>
+    {% endif %}
+</body>
+</html>
