@@ -24,6 +24,7 @@ def save_notes(notes):
 
 @app.route("/", methods=["GET"])
 def index():
+    """Display all notes with search functionality"""
     search = request.args.get("search", "")
     notes = load_notes()
 
