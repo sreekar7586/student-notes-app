@@ -1,14 +1,12 @@
 # Student Notes Sharing Application  
-**Git Bash & GitHub Hands-On Project**
+**Git Bash & GitHub Hands-On Project - Experimental Version**
 
 ## 📌 Introduction
-This project is developed as part of the **Version Control Systems** course to demonstrate practical usage of **Git Bash and GitHub**.  
+This project demonstrates advanced Git workflows including branching, merging, and conflict resolution.
 
-The project focuses on implementing real-world Git operations such as branching, merging, conflict resolution, and remote repository management.
+The application is a **Student Notes Sharing Platform** built with Python Flask framework, allowing students to collaborate on note-taking and sharing knowledge efficiently.
 
-The application itself is a **Student Notes Sharing Web Application** where users can create, view, search, edit, pin, and delete notes using a Python Flask backend with a simple web interface.  
-
-The primary goal of this project is to showcase **Git workflows** and version control best practices.
+The primary goal is to showcase **professional Git practices** in a real development scenario.
 
 ---
 
