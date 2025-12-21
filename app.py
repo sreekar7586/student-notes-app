@@ -42,8 +42,12 @@ def index():
 @app.route("/add", methods=["GET", "POST"])
 def add_note():
     if request.method == "POST":
-        name = request.form["name"]
-        note = request.form["note"]
+        name = request.form.get("name", "").strip()
+        note = request.form.get("note", "").strip()
+
+        # Bugfix: Validate input fields
+        if not name or not note:
+            return "Error: Both name and note are required", 400
 
         notes = load_notes()
 
