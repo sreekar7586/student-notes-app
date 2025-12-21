@@ -82,10 +82,24 @@ def edit_note(id):
 
 @app.route("/delete/<int:id>")
 def delete_note(id):
+    """Delete a note by ID"""
     notes = load_notes()
     notes = [n for n in notes if n["id"] != id]
     save_notes(notes)
     return redirect(url_for("index"))
+
+
+@app.route("/stats")
+def stats():
+    """Show statistics about notes"""
+    notes = load_notes()
+    total_notes = len(notes)
+    pinned_notes = len([n for n in notes if n.get("pinned", False)])
+    return {
+        "total": total_notes,
+        "pinned": pinned_notes,
+        "unpinned": total_notes - pinned_notes
+    }
 
 
 if __name__ == "__main__":
