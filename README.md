@@ -51,6 +51,9 @@ python app.py
 
 # Access in browser
 http://localhost:5000
+
+# View statistics endpoint
+http://localhost:5000/stats
 ```
 
 ### Using Docker
