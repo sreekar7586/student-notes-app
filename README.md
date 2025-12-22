@@ -39,6 +39,28 @@ student-notes-app/
 └── README.md                 # Project documentation
 ```
 
+## 🚀 Deployment
+
+**Live Deployment:** https://student-notes-app-production.up.railway.app
+
+The application is deployed on **Railway** with continuous deployment from GitHub.
+
+### Accessing the Live Application
+
+1. Visit the live URL: [Student Notes Sharing App](https://student-notes-app-production.up.railway.app)
+2. Create, view, search, edit, pin, and delete notes in real-time
+3. All changes are saved to the backend database
+
+### Deployment Details
+
+- **Platform:** Railway.app
+- **Branch:** master
+- **Auto-deploy:** Enabled (deploys on every git push)
+- **Environment:** Production
+- **Database:** JSON file storage
+
+---
+
 ---
 
 ## 🚀 How to Run the Project
