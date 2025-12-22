@@ -184,7 +184,7 @@ The project follows industry best practices and demonstrates real-world Git work
 
 ## 👨‍💻 Author
 
-**Student Name**: [Your Name]  
+**Student Name**: Mamidipaka Venkata Sai Sreekar  
 **Course**: Version Control Systems  
 **Project**: Git Bash & GitHub Hands-On Project  
 **Date**: December 2025
