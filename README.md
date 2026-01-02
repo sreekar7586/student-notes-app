@@ -246,10 +246,19 @@ Here are some screenshots of the Student Notes Sharing Application:
 ### Git Workflow Screenshots
 
 #### Commit History
-[View Commits](https://github.com/sreekar7586/student-notes-app/commits/master) - Shows all commits with meaningful messages demonstrating proper Git workflow
+![Commit History](Screenshot%202026-01-02%20084700.png)
+
+Shows all commits with meaningful messages and their timestamps demonstrating proper Git workflow practices.
 
 #### Git Branches
-[View Branches](https://github.com/sreekar7586/student-notes-app/branches) - Displays all feature branches (master, feature, test, bugfix, experiment) and their status
+![Git Branches](Screenshot%202026-01-02%20084652.png)
 
-#### Network Graph
-[View Network](https://github.com/sreekar7586/student-notes-app/network) - Visual representation of the Git workflow showing branch merges and commit timeline
+Displays all feature branches (master, feature, test, bugfix, experiment) with their status, updates, and relative commits.
+
+#### Merge Conflict Resolution
+![Merge Conflict](Screenshot%202026-01-02%20084637.png)
+
+Visual representation of Git merge conflicts and their resolution process in the Git workflow.
+
+#### Commit History
+[View Commits](https://github.com/sreekar7586/student-notes-app/commits/master) - Shows all commits with meaningful messages demonstrating 
