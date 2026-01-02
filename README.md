@@ -242,3 +242,14 @@ Here are some screenshots of the Student Notes Sharing Application:
 
 ### Delete Confirmation
 ![Delete](Screenshot%202026-01-02%20084131.png)
+
+### Git Workflow Screenshots
+
+#### Commit History
+[View Commits](https://github.com/sreekar7586/student-notes-app/commits/master) - Shows all commits with meaningful messages demonstrating proper Git workflow
+
+#### Git Branches
+[View Branches](https://github.com/sreekar7586/student-notes-app/branches) - Displays all feature branches (master, feature, test, bugfix, experiment) and their status
+
+#### Network Graph
+[View Network](https://github.com/sreekar7586/student-notes-app/network) - Visual representation of the Git workflow showing branch merges and commit timeline
