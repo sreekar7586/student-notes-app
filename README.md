@@ -218,3 +218,27 @@ The project follows industry best practices and demonstrates real-world Git work
 - [Git Official Documentation](https://git-scm.com/doc)
 - [GitHub Guides](https://guides.github.com/)
 - [Git Branching Strategy](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+
+---
+
+## 📸 Screenshots
+
+Here are some screenshots of the Student Notes Sharing Application:
+
+### Home Page
+![Home Page](Screenshot%202026-01-02%20083912.png)
+
+### Notes List View
+![Notes List](Screenshot%202026-01-02%20084058.png)
+
+### Add/Edit Note
+![Add Note](Screenshot%202026-01-02%20084106.png)
+
+### Search Functionality
+![Search](Screenshot%202026-01-02%20084113.png)
+
+### Pin Feature
+![Pin Feature](Screenshot%202026-01-02%20084122.png)
+
+### Delete Confirmation
+![Delete](Screenshot%202026-01-02%20084131.png)
